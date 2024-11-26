@@ -1,0 +1,167 @@
+name: success_subliminal
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.1+2
+
+environment:
+  sdk: '>=2.19.1 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  fluttertoast: ^8.2.2
+  shared_preferences: ^2.0.13
+  image_picker: ^0.8.7+4
+  flutter_tts: ^3.6.3
+  path_provider: ^2.0.12
+  http: ^0.13.6
+  flutter_spinkit: ^5.1.0
+  social_share: ^2.3.1
+  email_validator: ^2.1.17
+  flutter_share_me: ^1.4.0
+  go_router: ^7.1.1
+  readmore: ^2.2.0
+  audio_service: ^0.18.9
+  just_audio: ^0.9.31
+  audioplayers: ^4.1.0
+  video_player: ^2.6.0
+  get_it: ^7.2.0
+  firebase_core: ^2.14.0
+  flutter_stripe_web: ^4.2.0
+
+  flutter_stripe: ^9.2.2
+  cached_network_image: ^3.2.3
+  flutter_downloader: ^1.10.2
+  permission_handler: ^10.2.0
+  auto_size_text: ^3.0.0
+  webview_flutter: ^2.8.0
+  url_launcher: ^6.1.10
+  device_info_plus: ^8.2.2
+  otp_text_field: ^1.1.3
+  url_strategy: ^0.2.0
+  string_extensions: ^0.6.10
+  file_picker: ^5.2.10
+  flutter_html: ^2.1.1
+  chewie: ^1.5.0
+  universal_html: ^2.2.2
+  app_tracking_transparency: ^2.0.4
+
+
+
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/dummy_image.png
+    - assets/images/bg_image.png
+    - assets/images/ic_video.png
+    - assets/images/ic_home.png
+    - assets/images/ic_home_white.png
+    - assets/images/ic_home_yellow.png
+    - assets/images/ic_account_white.png
+    - assets/images/ic_account_yellow.png
+    - assets/images/ic_library_white.png
+    - assets/images/ic_library_yellow.png
+    - assets/images/ic_discover.png
+    - assets/images/ic_discover_white.png
+    - assets/images/ic_discover_yellow.png
+    - assets/images/ic_create_yellow.png
+    - assets/images/ic_create_white.png
+    - assets/images/ic_arrow_left.png
+    - assets/images/ic_step.png
+    - assets/images/ic_write_sub.png
+    - assets/images/ic_convert.png
+    - assets/images/ic_save.png
+    - assets/images/ic_gallery.png
+    - assets/images/ic_play.png
+    - assets/images/ic_download.png
+    - assets/images/ic_edit.png
+    - assets/images/ic_attachment.png
+    - assets/images/ic_fb.png
+    - assets/images/ic_twitter.png
+    - assets/images/ic_heart_empty.png
+    - assets/images/ic_tick_circle.png
+    - assets/images/ic_edit_pencil.png
+    - assets/images/ic_bag_tick.png
+    - assets/images/ic_more.png
+    - assets/images/ic_close.png
+    - assets/images/ic_close_icon.png
+    - assets/images/ic_black_bg.png
+    - assets/images/ic_close_bg.png
+    - assets/images/ic_close_btn.png
+    - assets/images/ic_stop.png
+    - assets/images/ic_dummy_home_web.png
+    - assets/images/bg_web.png
+    - assets/images/logout_web.png
+    - assets/images/ic_list_view.png
+    - assets/images/ic_grid_view.png
+    - assets/images/congrats.png
+    - assets/images/ic_play_icon.png
+    - assets/images/ic_stop_icon.png
+    - assets/images/ic_pause_icon.png
+    - assets/images/ic_button.png
+    - assets/images/ic_text_button.png
+    - assets/images/ic_export_button.png
+    - assets/images/ic_send_email_bg.png
+    - assets/images/ic_send_email_bg_mobile.png
+    - assets/images/ic_heart_icon.png
+    - assets/images/ic_bottom_arrow.png
+    - assets/images/ic_discover_button.png
+    - assets/images/ic_shadow.png
+    - assets/images/ic_discover_btn.png
+    - assets/images/ic_bg_dark_blue.png
+    - assets/images/ic_alert.png
+    - assets/images/discover_dummy_img.png
+    - assets/images/app_logo.png
+    - assets/images/ic_apple_pay.png
+    - assets/images/ic_apple_pay.png
+    - assets/images/ic_google_play_icon.png
+    - assets/images/app_logo_mobile.png
+    - assets/images/ic_cancel_subscription_btn.png
+    - assets/images/ic_monthly_bg.png
+    - assets/images/ic_annual_bg.png
+    - assets/images/ic_half_yearly_bg.png
+    - assets/images/ic_buy_subscription.png
+    - assets/images/ic_sms.png
+    - assets/images/ic_push.png
+    - assets/images/ic_empty_tick.png
+    - assets/images/ic_tick_yellow.png
+    - assets/images/ic_trash.png
+    - assets/images/ic_cards.png
+    - assets/images/ic_delete.png
+    - assets/images/bg_logo_image.png
+    - assets/images/ic_play_button_white.png
+    - assets/images/ic_stop_icon_white.png
+    - assets/images/ic_pause_white.png
+    - assets/images/ic_delete_white.png
+    - assets/file/termsFile.html
+
+  fonts:
+    - family: DPClear
+      fonts:
+        - asset: assets/fonts/dp_clear_regular.ttf
+          weight: 400
+        - asset: assets/fonts/dp_clear_medium.ttf
+          weight: 600
+
